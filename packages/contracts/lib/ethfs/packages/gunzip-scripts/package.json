@@ -1,0 +1,18 @@
+{
+  "name": "@ethfs/gunzip-scripts",
+  "private": true,
+  "version": "0.0.1",
+  "engines": {
+    "node": "18",
+    "pnpm": "8"
+  },
+  "scripts": {
+    "build": "esbuild src/gunzipScripts.ts --outfile=dist/gunzipScripts-$npm_package_version.js --bundle --minify"
+  },
+  "dependencies": {
+    "fflate": "^0.7.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.13"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "ethfs",
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+    "node": "18",
+    "pnpm": "8"
+  },
+  "scripts": {
+    "preinstall": "npx -y only-allow pnpm",
+    "dev": "pnpm --parallel dev",
+    "prettier": "pnpm --parallel --no-bail prettier",
+    "lint": "pnpm --parallel --no-bail lint",
+    "test": "pnpm --parallel --no-bail test"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  }
+}

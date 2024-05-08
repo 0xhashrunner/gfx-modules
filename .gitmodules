@@ -1,0 +1,24 @@
+[submodule "packages/contracts/lib/openzeppelin-contracts"]
+	path = packages/contracts/lib/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "packages/contracts/lib/ERC721A"]
+	path = packages/contracts/lib/ERC721A
+	url = https://github.com/chiru-labs/ERC721A
+[submodule "packages/contracts/lib/forge-std"]
+	path = packages/contracts/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "packages/contracts/lib/base64"]
+	path = packages/contracts/lib/base64
+	url = https://github.com/Brechtpd/base64
+[submodule "packages/contracts/lib/ds-test"]
+	path = packages/contracts/lib/ds-test
+	url = https://github.com/dapphub/ds-test
+[submodule "packages/contracts/lib/abdk-libraries-solidity"]
+	path = packages/contracts/lib/abdk-libraries-solidity
+	url = https://github.com/abdk-consulting/abdk-libraries-solidity
+[submodule "packages/contracts/lib/sstore2"]
+	path = packages/contracts/lib/sstore2
+	url = https://github.com/0xsequence/sstore2
+[submodule "packages/contracts/lib/ethfs"]
+	path = packages/contracts/lib/ethfs
+	url = https://github.com/holic/ethfs

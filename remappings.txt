@@ -1,0 +1,8 @@
+erc721a/=packages/contracts/lib/ERC721A/
+base64/=packages/contracts/lib/base64/
+forge-std/=packages/contracts/lib/forge-std/src/
+openzeppelin/=packages/contracts/lib/openzeppelin-contracts/
+abdk-libraries-solidity/=packages/contracts/lib/abdk-libraries-solidity/
+sstore2/=packages/contracts/lib/sstore2
+ds-test/=packages/contracts/lib/ds-test/src
+solady/=packages/contracts/lib/ethfs/packages/contracts/lib/solady/src/

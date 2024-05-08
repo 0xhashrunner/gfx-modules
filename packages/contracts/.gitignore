@@ -1,0 +1,13 @@
+.env.*
+
+# forge output
+cache
+out
+broadcast
+
+abi/**/*.json
+!abi/**/*.abi.json
+
+deploys/*
+
+# cache
