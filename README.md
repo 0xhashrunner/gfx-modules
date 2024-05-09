@@ -23,6 +23,10 @@ To start prototyping ideas, simply create a new directory at `packages/contracts
 
 Next update the imports and variables in `packages/contracts/test/ART0x1.sol` before running `forge test -vvv` and copy-pasting the latest tokenURI logs into your browser.
 
+### Deploying
+
+To deploy and test your GFX Module against ART0x1 on Sepolia, copy env.example to env.local, fill in the required environment variales and run `deployGfxModule` script from `packages/contracts` after updating the script with your contract path and name.
+
 ### Please Note
 
 The usage of files uploaded to ethfs is not yet supported locally and relevant parts of the code have been commented out for this reason.
