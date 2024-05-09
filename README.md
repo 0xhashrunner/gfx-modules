@@ -1,4 +1,4 @@
-# GFX Modules Starter Kit
+# GFX Modules Dev Kit
 
 [ART0x1](https://www.art0x1.com/) source contracts, [GFX Module](https://www.art0x1.com/learn/gfx-modules) templates and forge testing scripts to make module development a breeze.
 
@@ -25,7 +25,9 @@ Next update the imports and variables in `packages/contracts/test/ART0x1.sol` be
 
 ### Deploying
 
-To deploy and test your GFX Module against ART0x1 on Sepolia, copy env.example to env.local, fill in the required environment variales and run `deployGfxModule` script from `packages/contracts` after updating the script with your contract path and name.
+To deploy and test your GFX Module against [ART0x1 on Sepolia](https://sepolia.etherscan.io/address/0xE2d85a61B98a1e5728fc06eB6678765aa2beF09B#code), copy `env.example` to a new `env.local`, fill in the required environment variales and run `deployGfxModule` script from `packages/contracts` after updating the script with your contract path and name.
+
+After deployment, the GFX Module needs to be listed with ART0x1 via `listGfxModule`.
 
 ### Please Note
 
@@ -35,9 +37,11 @@ If you're planning on using:
 - IBM Plex Mono as your font, you can simply [install it locally on your machine](https://github.com/IBM/plex/releases) for now and artworks will render correctly in your browser.
 - p5.js or three.js in your GFX module, simply copy paste the minified code into your modules script tag variable.
 
-More example contracts will be provided soon™ and running ethfs locally should also be possible.
+More example contracts will be provided soon™ and running ethfs locally should also be possible too so I'll look into that next.
 
-Enjoy,
+Let me know if you have any questions or want to discuss ideas.
+
+Thanks and enjoy,
 
 hashrunner
 
